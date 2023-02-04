@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="test_top" Register="40" Lut="73">
+    <SubModule name="u_OV2640_Controller">
+        <SubModule name="LUT" Register="9" Alu="8" Lut="1" Bsram="1"/>
+        <SubModule name="I2C" Register="73" Lut="95"/>
+    </SubModule>
+    <SubModule name="Video_Frame_Buffer_Top_inst" Register="445" Alu="46" Lut="500" Bsram="6"/>
+    <SubModule name="hpram_pllvr_inst"/>
+    <SubModule name="HyperRAM_Memory_Interface_Top_inst" Register="407" Alu="31" Lut="555" Bsram="1"/>
+    <SubModule name="syn_gen_inst" Register="35" Lut="80"/>
+    <SubModule name="u_Gowin_PLLVR"/>
+    <SubModule name="DVI_TX_Top_inst" Register="73" Alu="68" Lut="217"/>
+</Module>

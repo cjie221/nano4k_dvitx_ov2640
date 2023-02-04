@@ -1,0 +1,124 @@
+[
+ {
+  "InstFile" : "D:/proj/nano4k_dvitx_ov2640/project/src/test_top.v",
+  "InstLine" : 2,
+  "InstName" : "test_top",
+  "ModuleFile" : "D:/proj/nano4k_dvitx_ov2640/project/src/test_top.v",
+  "ModuleLine" : 2,
+  "ModuleName" : "test_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/proj/nano4k_dvitx_ov2640/project/src/test_top.v",
+    "InstLine" : 160,
+    "InstName" : "u_OV2640_Controller",
+    "ModuleFile" : "D:/proj/nano4k_dvitx_ov2640/project/src/ov2640/OV2640_Controller.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "OV2640_Controller",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/proj/nano4k_dvitx_ov2640/project/src/ov2640/OV2640_Controller.v",
+      "InstLine" : 30,
+      "InstName" : "LUT",
+      "ModuleFile" : "D:/proj/nano4k_dvitx_ov2640/project/src/ov2640/OV2640_Registers.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "OV2640_Registers"
+     },
+     {
+      "InstFile" : "D:/proj/nano4k_dvitx_ov2640/project/src/ov2640/OV2640_Controller.v",
+      "InstLine" : 41,
+      "InstName" : "I2C",
+      "ModuleFile" : "D:/proj/nano4k_dvitx_ov2640/project/src/ov2640/I2C_Interface.v",
+      "ModuleLine" : 14,
+      "ModuleName" : "I2C_Interface"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/proj/nano4k_dvitx_ov2640/project/src/test_top.v",
+    "InstLine" : 203,
+    "InstName" : "Video_Frame_Buffer_Top_inst",
+    "ModuleFile" : "D:/proj/nano4k_dvitx_ov2640/project/src/video_frame_buffer/video_frame_buffer.v",
+    "ModuleLine" : 3358,
+    "ModuleName" : "Video_Frame_Buffer_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/proj/nano4k_dvitx_ov2640/project/src/video_frame_buffer/video_frame_buffer.v",
+      "InstLine" : 3409,
+      "InstName" : "vfb_hyperram_wrapper_inst",
+      "ModuleFile" : "D:/proj/nano4k_dvitx_ov2640/project/src/video_frame_buffer/video_frame_buffer.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~vfb_hyperram_wrapper.Video_Frame_Buffer_Top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/proj/nano4k_dvitx_ov2640/project/src/test_top.v",
+    "InstLine" : 235,
+    "InstName" : "hpram_pllvr_inst",
+    "ModuleFile" : "D:/proj/nano4k_dvitx_ov2640/project/src/gowin_pllvr/hpram_pllvr.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "hpram_pllvr"
+   },
+   {
+    "InstFile" : "D:/proj/nano4k_dvitx_ov2640/project/src/test_top.v",
+    "InstLine" : 242,
+    "InstName" : "HyperRAM_Memory_Interface_Top_inst",
+    "ModuleFile" : "D:/proj/nano4k_dvitx_ov2640/project/src/hyperram_memory_interface/hyperram_memory_interface.v",
+    "ModuleLine" : 3137,
+    "ModuleName" : "HyperRAM_Memory_Interface_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/proj/nano4k_dvitx_ov2640/project/src/hyperram_memory_interface/hyperram_memory_interface.v",
+      "InstLine" : 3180,
+      "InstName" : "u_hpram_top",
+      "ModuleFile" : "D:/proj/nano4k_dvitx_ov2640/project/src/hyperram_memory_interface/hyperram_memory_interface.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~hpram_top.HyperRAM_Memory_Interface_Top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/proj/nano4k_dvitx_ov2640/project/src/test_top.v",
+    "InstLine" : 267,
+    "InstName" : "syn_gen_inst",
+    "ModuleFile" : "D:/proj/nano4k_dvitx_ov2640/project/src/syn_code/syn_gen.v",
+    "ModuleLine" : 13,
+    "ModuleName" : "syn_gen"
+   },
+   {
+    "InstFile" : "D:/proj/nano4k_dvitx_ov2640/project/src/test_top.v",
+    "InstLine" : 319,
+    "InstName" : "u_Gowin_PLLVR",
+    "ModuleFile" : "D:/proj/nano4k_dvitx_ov2640/project/src/gowin_pllvr/gowin_pllvr.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_PLLVR"
+   },
+   {
+    "InstFile" : "D:/proj/nano4k_dvitx_ov2640/project/src/test_top.v",
+    "InstLine" : 336,
+    "InstName" : "DVI_TX_Top_inst",
+    "ModuleFile" : "D:/proj/nano4k_dvitx_ov2640/project/src/dvi_tx/dvi_tx.v",
+    "ModuleLine" : 1042,
+    "ModuleName" : "DVI_TX_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/proj/nano4k_dvitx_ov2640/project/src/dvi_tx/dvi_tx.v",
+      "InstLine" : 1073,
+      "InstName" : "rgb2dvi_inst",
+      "ModuleFile" : "D:/proj/nano4k_dvitx_ov2640/project/src/dvi_tx/dvi_tx.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~rgb2dvi.DVI_TX_Top"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/proj/nano4k_dvitx_ov2640/project/src/testpattern.v",
+  "InstLine" : 18,
+  "InstName" : "testpattern",
+  "ModuleFile" : "D:/proj/nano4k_dvitx_ov2640/project/src/testpattern.v",
+  "ModuleLine" : 18,
+  "ModuleName" : "testpattern"
+ }
+]
